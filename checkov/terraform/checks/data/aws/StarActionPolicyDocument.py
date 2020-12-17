@@ -14,7 +14,7 @@ class StarActionPolicyDocument(BaseDataCheck):
         """
             validates iam policy document
             https://learn.hashicorp.com/terraform/aws/iam-policy
-        :param conf: aws_kms_key configuration
+        :param conf: aws_iam_policy_document configuration
         :return: <CheckResult>
         """
         key = 'statement'
